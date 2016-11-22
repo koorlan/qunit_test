@@ -11,6 +11,6 @@ stage('git pull'){
 
    }
    stage('Publish'){
-      publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'build/test-reports/TEST-Y.xml', reportFiles: 'index.html', reportName: 'HTML Report'])
+      publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'build/test-reports/', reportFiles: 'TEST-Y.xml', reportName: 'HTML Report'])
    }
 }
