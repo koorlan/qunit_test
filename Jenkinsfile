@@ -11,6 +11,7 @@ stage('git pull'){
 
    }
    stage('Publish'){
+      junit '_build/test-reports/TEST-Y.xml'
       publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '_build/test-reports/', reportFiles: 'TEST-Y.xml', reportName: 'HTML Report'])
    }
 }
