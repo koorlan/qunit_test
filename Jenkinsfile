@@ -8,5 +8,6 @@ stage('git pull'){
 
    stage('compile and test'){
        sh 'grunt'
+       sh 'phpunit -c "_build/test-reports/TEST-Y.xml"'
    }
 }
