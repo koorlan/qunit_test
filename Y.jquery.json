@@ -1,0 +1,26 @@
+{
+  "name": "Y",
+  "title": "Y",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/korlan/qunit2",
+  "author": {
+    "name": "Your Name",
+    "email": "you@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/korlan/qunit2.git"
+  },
+  "bugs": "https://github.com/korlan/qunit2/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/korlan/qunit2/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
