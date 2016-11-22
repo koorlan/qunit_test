@@ -10,7 +10,7 @@ stage('git pull'){
        sh 'grunt'
 
    }
-   stage('php_unit'){
-    sh 'phpunit -c _build/test-reports/TEST-Y.xml'
+   stage('Publish'){
+      publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'build/test-reports/TEST-Y.xml', reportFiles: 'index.html', reportName: 'HTML Report'])
    }
 }
