@@ -10,7 +10,7 @@ stage('git pull'){
        sh 'grunt'
 
    }
-   tage('php_unit'){
+   stage('php_unit'){
     sh 'phpunit -c _build/test-reports/TEST-Y.xml'
    }
 }
