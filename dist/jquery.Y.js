@@ -2,7 +2,7 @@
 * https://github.com/korlan/qunit2
 * Copyright (c) 2016 Your Name; Licensed MIT */
 (function($) {
-
+  //salut
   // Collection method.
   $.fn.Y = function() {
     return this.each(function(i) {
